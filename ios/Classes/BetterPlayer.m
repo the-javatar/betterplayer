@@ -15,7 +15,7 @@ static void* presentationSizeContext = &presentationSizeContext;
 
 #if TARGET_OS_IOS
 void (^__strong _Nonnull _restoreUserInterfaceForPIPStopCompletionHandler)(BOOL);
-API_AVAILABLE(ios(9.0))
+API_AVAILABLE(ios(11.0))
 AVPictureInPictureController *_pipController;
 #endif
 
