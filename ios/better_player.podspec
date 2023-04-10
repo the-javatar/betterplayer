@@ -20,7 +20,7 @@ A new flutter plugin project.
   s.dependency 'HLSCachingReverseProxyServer'
   s.dependency 'PINCache'
   
-  s.platform = :ios, '16.0'
+  s.platform = :ios, '16.1'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
 end
 
